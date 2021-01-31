@@ -1,0 +1,45 @@
+/* Mis constantes */
+/* each*/
+.li-lista {
+  color: #1a1a1a; }
+
+.ol-lista {
+  color: #1a1a1a; }
+
+.h1-tituloPrincipal {
+  color: #9b3a31; }
+
+.h2-tituloPrincipal {
+  color: #9b3a31; }
+
+.box_uno {
+  background-color: #4285F4;
+  width: 360px; }
+
+.box_dos {
+  background-color: #33D374;
+  width: 310px; }
+
+.box_tres {
+  background-color: #4285F4;
+  width: 410px; }
+
+.box_cuatro {
+  background-color: #33D374;
+  width: 205.71429px; }
+
+.box_uno {
+  width: 200px;
+  height: 100px;
+  background-color: #33D374;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px; }
+
+.box_dos {
+  width: 150px;
+  height: 50px;
+  background-color: #108EFF;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px; }
