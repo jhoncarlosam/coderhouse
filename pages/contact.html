@@ -2,7 +2,9 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="This is my website in which I publish programming blogs and things of personal interest. You can also find my portfolio in one of its sections.">
+        <meta name="keywords" content="DEVELOPMENT, PROGRAMMING, WORK, SOCIAL NETWORKS, PROFESSIONAL, PROFILE, FREELANCE, JHON CARLOS ACEVEDO MENDOZA">
 		<title>Contact — Jhon</title>
 		<meta charset="UTF-8">
         <!--favicon-->
@@ -11,30 +13,41 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon_io/favicon-16x16.png">
 		<link rel="manifest" href="/img/favicon_io/site.webmanifest">
         <!--CSS-->
-        <link rel="stylesheet" href="/class-11-sass/sass/css/prueba.css">
-        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="/css/styles.css">
+		<!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	</head>
 	<body>
 		<header>
-				<nav>
-					<a class="navbar-brand" href="../index.html">Home</a>
-					<a class="navbar-brand" href="about.html">About</a>
-					<a class="navbar-brand" href="portfolio.html">Portfolio<a>
-					<a class="navbar-brand" href="contact.html">Contact</a>
-					<a class="navbar-brand" href="faqs.html">FAQs</a>
-				</nav>
-			</header>
-			<main>
+			<!--<a href="/index.html">Jhon Acevedo</a>-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="../index.html">Home</a>
+                <a class="navbar-brand" href="/portfolio.html">Portfolio</a>
+                <a class="navbar-brand" href="/faqs.html">FAQs</a>
+                <a class="navbar-brand" href="/about.html">About</a>
+                <a class="navbar-brand" href="/contact.html">Contact</a>
+            </nav>
+		</header>
+		<main>
+			<div class="jumbotron">			
 				<h1>Contact</h1>
 				<form action="http://prueba-local.test/" method="POST">
+					<div class="form-group">
 						<label for="fullname">First and Last Name</label>
 						<input class="form-control" maxlength="30" id="fullname" name="fullname" type="text" placeholder="First and Last Name">
+					</div>
+					<div>
 					<label class="form-group" for="fullname">Age</label>
 						<input id ="age" type="number" name="edad" max="99">
+					</div>
+					<div class="form-group">
 						<label for="email">Email</label>
 						<input name="email" class="form-control" id="email" type="email" aria-describedby="emailHelp" placeholder="Enter email">
 						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>					  
+					<div class="form-group">
 						<label for="interest">How can we help you?</label>
+						<div class="form-group">
 							<select class="custom-select" name="interest" id="interest">
 								<option value="Desarrollo Web">Web development</option>
 								<option value="Graphic Design">Graphic Design</option>
@@ -43,24 +56,44 @@
 								<option value="UI/UX Design">UI/UX Design</option>
 								<option value="Startup Creation">Startup Creation</option>
 							</select>
+						</div>
+					</div>
+					<div>
 						<label for="comments">What do you need?</label><br>
 						<textarea name="comments" id="comments" cols="60" rows="15"></textarea>
+					</div>
 					<button class="btn btn-secondary" type="submit">Send</button>
 				</form>
 				<hr>
 				<h2>Subscription Form</h2>
 				<form action="http://prueba-local.test">
+					<div>
 						<input class="form-control" name="email" id="sub" type="email" placeholder="email@email.nl">
 						<button class="btn btn-secondary" type="submit">Subscribe!</button>
+					</div>
 				</form>
-			</main>
-			<footer>
-				<span class="d-block p-2 bg-dark text-white"></span>
-				<p class="lead">
-					<h5>Copyright JhonDesign</h5>
-					<h6>Designed by Jhon Acevedo</h6>
-				</p>
-				<span class="d-block p-2 bg-dark text-white"></span>
-			</footer>
+			</div>
+		</main>
+		<footer>
+			<div class="row">
+				<div class="col">
+					<section>
+						<a href="#">Jhon Carlos Acevedo Mendoza @jhoncarlosam</a>
+						&copy 2021
+					</section>
+				</div>
+				<div class="col">
+					<nav>
+						<a href="#">Lastest Posts</a>
+						<a href="https://facebook.com/jhoncarlosam777" target="_blank" rel="noopener">Facebook</a>
+						<a href="https://twitter.com/jhoncarlosam"target="_blank" rel="noopener">Twitter</a>
+						<a href="https://instagram.com/jhoncarlosam"target="_blank" rel="noopener">Instagram</a>
+					</nav>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 	</body>
 </html>
