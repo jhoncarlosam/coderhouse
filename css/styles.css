@@ -2,11 +2,13 @@
     background: #F23838;
 }
 html {
-    
+    font-size: 100%;
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 'Roboto Slab', serif; /*tipo de fuente*/
+    font-family: 'Nunito', sans-serif; /*tipo de fuente*/
+    line-height: 1.6rem;
+    letter-spacing: .1rem;
     background-color: #ffffff;
 }
 * {
@@ -15,7 +17,6 @@ body {
 img {
     display: block;
     height: 20rem;
-    margin: 1rem;
 }
 h1 {
     font-size: 3rem;
@@ -24,7 +25,6 @@ h1 {
 }
 h2 {
     font-size: 1.8rem;
-    font-style: italic;
 }
 h3 {
     font-size: 1.5rem;
@@ -34,6 +34,7 @@ h4 {
     font-size: 1.3rem;
     font-weight: bold;
 }
+
 /*HEADER*/
 .main-title{
     background-color: #ffffff; /*color de fondo*/
@@ -49,6 +50,7 @@ h4 {
     list-style-type: none;
     background-color: #ffffff;
     text-align: center;
+    justify-content: space-between;
 }
 .main-nav__item {
     display: inline-block;
@@ -57,9 +59,12 @@ h4 {
     color: #000000;
     padding: 1rem;
     text-decoration: none;
+    transition: all 0.4s linear;
+    border-radius: 5px;
 }
 .main-nav__item a:hover { /*al pasar sobre el elemento*/
-    color: #F23838;
+    color: #ffffff;
+    background: #000000;
 }
 .main-nav__item a:active { /*al clickearlo*/
     color: #38f266;
@@ -73,20 +78,106 @@ h4 {
 /*MAIN*/
 main {
     width: 100%;
-    padding: 5rem;
+    padding: 3rem;
     border-style: solid;
     border-radius: 2rem;
-
+    background-color: #ffffff;
 }
 div {
     box-sizing: border-box;
 }
+/*INDEX*/
+.grid-index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-index img {
+    height: 22rem;
+}
+.grid-index div {
+    background: #ffffff;
+    padding: 1rem;
+}
+.grid-index div:hover {
+    border: .1rem solid #7e7373;
+    border-radius: 1rem;
+}
+/*PORTFOLIO*/
+/*FAQS*/
+.grid-faqs {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-weight: 900;
+}
+.grid-faqs p {
+    padding-top: 1rem;
+    padding-left: 2.4rem;
+    padding-right: 9rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    line-height: 1.9rem;
+}
+/*CONTACT*/
+/*ABOUT*/
+.grid-about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+}
+.grid-about img {
+    height: 32rem;
+}
+.grid-about div {
+    font-weight: 900;
+}
+.grid-about {
+    padding-top: 1rem;
+    padding-left: 2.4rem;
+    padding-right: 9rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    line-height: 1.9rem;
+}
+.grid-about li {
+    padding-left: 3rem;
+}
+.grid-about-faqs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-about-faqs {
+    padding-top: 1rem;
+    padding-left: 2.4rem;
+    padding-right: 9rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    line-height: 1.9rem;
+}
+.grid-about-faqs div{
+    font-weight: 900;
+}
+.grid-about-collage {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 3rem;
+}
+.grid-about-collage img {
+    height: 12rem;
+    border-radius: 1rem;
+    padding: .4rem;
+}
 /*FOOTER*/
 footer {
-    height: 10vh;
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    background-color: #000000
+}
+footer nav {
+    background-color: #000000;
 }
 .last-section {
-    padding: 3rem 3rem;
+    padding: 1rem;
     list-style: none;
     background-color: #000000;
     text-align: center;
@@ -114,9 +205,7 @@ footer {
     content: " ← ";
 }
 .last-nav {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-    margin-top: 0;
+    padding: 1rem;
     list-style: none;
     background-color: #000000;
     text-align: center;
