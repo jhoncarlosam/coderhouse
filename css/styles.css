@@ -165,6 +165,19 @@ div {
     border-radius: 1rem;
     padding: .4rem;
 }
+/*RELATIONSHIP*/
+.grid-relationship {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-relationship img{
+    height: 4rem;
+}
+.grid-relationship div {
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    
+}
 /*FOOTER*/
 footer {
     padding: 6rem;
