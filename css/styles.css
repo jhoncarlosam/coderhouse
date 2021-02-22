@@ -111,6 +111,14 @@ div {
     border: .1rem solid #7e7373;
     border-radius: 1rem;
 }
+.grid-button {
+    display: grid;
+    grid-template-columns: 70% 13%;
+}
+.grid-button p{
+    font-weight: 900;
+    line-height: 3rem;
+}
 /*PORTFOLIO*/
 /*FAQS*/
 .grid-faqs {
@@ -186,6 +194,21 @@ div {
     padding-right: 2rem;
     padding-bottom: 2rem;
     
+}
+/*ASIDE*/
+aside {
+    font-weight: 900;
+    line-height: 1.9rem;
+}
+button {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 1.3rem;
+    border: .15rem solid #000000
 }
 /*FOOTER*/
 footer {
