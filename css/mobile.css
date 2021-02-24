@@ -102,10 +102,9 @@
         margin: 0;
     }
     .grid-relationship img{
-        height: 6rem;
+        height: auto;
     }
     .grid-relationship div {
-        box-sizing: border-box;
         padding: 0;
     }
     /*faqs*/
