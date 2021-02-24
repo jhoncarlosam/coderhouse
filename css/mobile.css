@@ -4,6 +4,9 @@
     }
     * {
         box-sizing: border-box;
+        width: 98.9%;
+        padding: 0;
+        margin: 0;
     }
     body {
         box-sizing: border-box;
@@ -20,21 +23,27 @@
     h2 {
         font-size: 2rem;
         font-weight: 900;
-        padding: 0;
-        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     h3 {
         font-size: 2rem;
         font-weight: bold;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     h4 {
         font-size: 2rem;
         font-weight: bold;
     }
-    /*header*/
-    .contenedor {
-        width: 100%;
+    main {
+        margin: 0rem 0 1rem 1rem;
+        padding: 1rem;
+        border-style: solid;
+        border-radius: 1rem;
+        background-color: #ffffff;
     }
+    /*header*/
     .navigation {
         width: 100%;
         margin: 1rem;
@@ -61,18 +70,20 @@
     }
     /*index*/
     .grid-index {
+        box-sizing: border-box;
         display: grid;
         grid-template-columns: 100%;
     }
     .grid-index img {
-        height: 166px;
+        box-sizing: border-box;
+        height: 165px;
     }
     .grid-button {
         display: grid;
         grid-template-columns: 100%;
     }
     .grid-button p{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         font-weight: 900;
         line-height: 3rem;
     }
@@ -81,5 +92,109 @@
     }
     .grid-index {
         box-sizing: border-box;
+    }
+    /*relationship*/
+    .grid-relationship {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .grid-relationship img{
+        height: 6rem;
+    }
+    .grid-relationship div {
+        box-sizing: border-box;
+        padding: 0;
+    }
+    /*faqs*/
+    .grid-faqs {
+        display: grid;
+        grid-template-columns: 100%;
+        font-weight: 900;
+    }
+    .grid-faqs h2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .grid-faqs p {
+        padding: 0;
+        font-weight: 500;
+        line-height: 2.5rem;
+    }
+    /*about*/
+    .grid-about {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .grid-about img {
+        display: block;
+        margin: auto;
+        height: 42rem;
+        border-radius: 1rem;
+    }
+    .grid-about h3 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .grid-about p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .grid-about div {
+        font-weight: 900;
+    }
+    .grid-about {
+        padding-top: 1rem;
+        padding-left: 2.4rem;
+        padding-right: 9rem;
+        padding-bottom: 1rem;
+        font-weight: 900;
+        line-height: 1.9rem;
+    }
+    .grid-about li {
+        padding-left: 3rem;
+        line-height: 1.5;
+    }
+    .grid-about p {
+        line-height: 1.5;
+    }
+    .grid-about h4 {
+        padding-top: 2rem;
+    }
+    .grid-about-faqs {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .grid-about-faqs {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-weight: 900;
+        line-height: 1.9rem;
+    }
+    .grid-about-faqs div{
+        font-weight: 900;
+    }
+    .grid-about-faqs div ol li {
+        padding-top: 2rem;
+    }
+    .grid-about-collage {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 3rem;
+    }
+    .grid-about-collage img {
+        height: 12rem;
+        border-radius: 1rem;
+        padding: .4rem;
+    }
+    /*footer*/
+    footer {
+        padding: 1 0 1 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #000000;
     }
 }

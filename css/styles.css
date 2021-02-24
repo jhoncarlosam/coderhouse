@@ -108,7 +108,6 @@
         font-weight: 900;
         line-height: 3rem;
     }
-    /*PORTFOLIO*/
     /*FAQS*/
     .grid-faqs {
         display: grid;
@@ -123,7 +122,6 @@
         font-weight: 900;
         line-height: 1.9rem;
     }
-    /*CONTACT*/
     /*ABOUT*/
     .grid-about {
         display: grid;
@@ -181,8 +179,7 @@
     }
     .grid-relationship div {
         padding-right: 2rem;
-        padding-bottom: 2rem;
-        
+        padding-bottom: 2rem;    
     }
     /*ASIDE*/
     aside {
@@ -229,7 +226,7 @@
         color: #F23838;
     }
     .last-section__item a:active {
-        color: #38f266;
+        color: #f2df38;
     }
     .last-nav {
         list-style: none;
@@ -247,7 +244,7 @@
         color: #F23838;
     }
     .last-nav__item a:active {
-        color: #38f266;
+        color: #f2df38;
     }
     .last-nav__item a::before {
         content: " ~ ";
